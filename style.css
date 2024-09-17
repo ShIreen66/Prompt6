@@ -37,7 +37,8 @@ nav .home .tour .explore .about{
     z-index: 1;
 
 }
-.page > video {
+
+.page > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -47,6 +48,17 @@ nav .home .tour .explore .about{
     object-fit: cover;
     object-position: center;
 }
+
+/* .page > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
 
 .overlay {
     width: 100%;
