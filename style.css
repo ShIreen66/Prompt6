@@ -21,6 +21,7 @@ nav {
     align-items: center;
     gap: 50px;
     position: relative;
+    background-color: #2d4e57;
 }
 
 nav h3 {
@@ -38,18 +39,7 @@ nav .home .tour .explore .about{
 
 }
 
-.page > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-/* .page > video {
+/* .page > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,6 +49,17 @@ nav .home .tour .explore .about{
     object-fit: cover;
     object-position: center;
 } */
+
+.page > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 .overlay {
     width: 100%;
